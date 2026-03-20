@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &29516907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2467944761499820928, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
+  m_PrefabInstance: {fileID: 1725445674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,9 +824,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2179748807822862315, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
+      propertyPath: visualGameObject
+      value: 
+      objectReference: {fileID: 29516907}
     - target: {fileID: 7447103249487383852, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
       propertyPath: m_Name
-      value: ClearCoutner (1)
+      value: ClearCounter (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7841300588050451543, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
       propertyPath: m_LocalPosition.x
@@ -901,7 +910,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7447103249487383852, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
       propertyPath: m_Name
-      value: ClearCoutner
+      value: ClearCounter
       objectReference: {fileID: 0}
     - target: {fileID: 7841300588050451543, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
       propertyPath: m_LocalPosition.x

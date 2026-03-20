@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6007187964958066122}
   - component: {fileID: -6667332755700591758}
   m_Layer: 6
-  m_Name: ClearCoutner
+  m_Name: ClearCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,6 +33,7 @@ Transform:
   m_Children:
   - {fileID: 2461542614684033108}
   - {fileID: 7512546932751565924}
+  - {fileID: 6929245069446239898}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!65 &6007187964958066122
@@ -68,6 +69,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c187cf1a57c2c44948cca0278b12dfca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  tomatoPrefab: {fileID: 4811883306947358255, guid: ce2498feaa8a444bfa88c490f1ba1186, type: 3}
+  counterTopPoint: {fileID: 6929245069446239898}
+--- !u!1 &8289918654784354181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6929245069446239898}
+  m_Layer: 6
+  m_Name: CounterTopPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6929245069446239898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8289918654784354181}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7841300588050451543}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2132688553213625599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,6 +248,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2179748807822862315}
   m_SourcePrefab: {fileID: 100100000, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
+--- !u!1 &2467944761499820928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8489276541531669327, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
+  m_PrefabInstance: {fileID: 6336598374031483087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7512546932751565924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4589716710238282923, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
@@ -237,4 +276,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   clearCounter: {fileID: -6667332755700591758}
-  visualGameObject: {fileID: 7512546932751565925}
+  visualGameObject: {fileID: 2467944761499820928}

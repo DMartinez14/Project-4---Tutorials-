@@ -18,7 +18,7 @@ MonoBehaviour:
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1773978586
+  checkedLastUpdateTimestamp: 1773986035
   lastQOTDResponse:
     questionId: 283
     questionText: 'Is there a problem with this code?
@@ -33,18 +33,18 @@ MonoBehaviour:
     answerC: 'Should be: SetCameraFollowFunc((Vector3(1, 0, 0)) =&#62; { });'
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1773978586
+  lastQotdTimestamp: 1773986035
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleMar26Synty.png
     topText: Synty Bundle! Awesome Low Poly Sci-Fi Assets and Anims!
     topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1773978586
+  lastDynamicHeaderTimestamp: 1773986035
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1773978586
+  websiteLatestMessageTimestamp: 1773986035
   websiteLatestVideos:
     videos:
     - youTubeId: Ni85VfUCw6E
@@ -55,4 +55,4 @@ MonoBehaviour:
       title: TOP 10 NEW Games, Made with Unity! (FEBRUARY 2026)
     - youTubeId: 5VcshVc1a_k
       title: How To Make Diegetic 3D UI In Unity (EASY!)
-  websiteLatestVideosTimestamp: 1773978586
+  websiteLatestVideosTimestamp: 1773986035

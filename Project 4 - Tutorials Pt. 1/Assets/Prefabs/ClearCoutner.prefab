@@ -237,3 +237,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   clearCounter: {fileID: -6667332755700591758}
+  visualGameObject: {fileID: 7512546932751565925}

@@ -124,6 +124,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2467944761499820928, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
   m_PrefabInstance: {fileID: 1725445674}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &258365692 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6667332755700591758, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
+  m_PrefabInstance: {fileID: 1725445674}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c187cf1a57c2c44948cca0278b12dfca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +835,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6667332755700591758, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 4811883306947358255, guid: f4227173bac1d45cd9a1e2a313db57db, type: 3}
+    - target: {fileID: -6667332755700591758, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: c6fab2e323e1f4b5194ac44659821e3a, type: 2}
     - target: {fileID: 2179748807822862315, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
       propertyPath: visualGameObject
       value: 
@@ -908,6 +927,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6667332755700591758, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6667332755700591758, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 258365692}
     - target: {fileID: 7447103249487383852, guid: 195fef4de6a6c48018fb5ee017a23c49, type: 3}
       propertyPath: m_Name
       value: ClearCounter

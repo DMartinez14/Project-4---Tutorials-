@@ -16,18 +16,16 @@ private int platesSpawnedAmountMax = 4;
 private void Update()
 {
     spawnPlateTimer += Time.deltaTime;
-    if(spawnPlateTimer > spawnPlateTimerMax)
+    if (spawnPlateTimer > spawnPlateTimerMax)
+    {
+        spawnPlateTimer = 0f;
+
+        if (platesSpawnedAmount < platesSpawnedAmountMax)
         {
-            KitchenObject.SpawnKitchenObject(plateKitchenObjectSO, this);
-            spawnPlateTimer = 0f;
-
-            if(platesSpawnedAmount < platesSpawnedAmountMax)
-            {
-                platesSpawnedAmount++;
-
-                OnPlateSpawned?.Invoke(this, EventArgs.Empty);
-            }
+            platesSpawnedAmount++;
+            OnPlateSpawned?.Invoke(this, EventArgs.Empty);
         }
+    }
 }
 
     public override void Interact(Player player)

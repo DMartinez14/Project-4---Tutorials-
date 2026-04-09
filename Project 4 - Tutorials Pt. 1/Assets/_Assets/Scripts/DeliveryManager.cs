@@ -10,6 +10,7 @@ public event EventHandler OnRecipeSuccess;
 public event EventHandler OnRecipeFailed;
 
 
+
 public static DeliveryManager Instance {  get; private set;}
 [SerializeField] private RecipeListSO recipeListSO;
     private List<RecipeSO> waitingRecipeSOList;
@@ -18,6 +19,8 @@ public static DeliveryManager Instance {  get; private set;}
     private float spawnRecipeTimerMax = 4f;
 
     private int waitingRecipesMax = 4;
+
+    private int successfulRecipesAmount;
 
     private void Awake(){
         Instance = this;
@@ -74,9 +77,9 @@ public static DeliveryManager Instance {  get; private set;}
                 if(plateContentsMatchesRecipe)
                 {
                     //Player delivered the correct recipe!
-                   
+                   successfulRecipesAmount++;
                     waitingRecipeSOList.RemoveAt(i);
-
+                    
                     OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
                     OnRecipeSuccess?.Invoke(this, EventArgs.Empty);
                     return;
@@ -91,6 +94,10 @@ public static DeliveryManager Instance {  get; private set;}
     public List<RecipeSO> GetWaitingRecipeSOList()
     {
         return waitingRecipeSOList;
+    }
+    public int GetSuccessfulRecipesAmount()
+    {
+        return successfulRecipesAmount;
     }
 
 }

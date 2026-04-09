@@ -94,13 +94,14 @@ public class StoveCounter : BaseCounter, IHasProgress
             }
 
 
-             OnProgressChanged?.Invoke(this, new IHasProgress.OnProgressChangedEventArgs
-                {
-                    progressNormalized = 0f
-                });
+             
 
                 break;
             case State.Burned:
+            OnProgressChanged?.Invoke(this, new IHasProgress.OnProgressChangedEventArgs
+                {
+                    progressNormalized = 0f
+                });
                 break;
         }
        

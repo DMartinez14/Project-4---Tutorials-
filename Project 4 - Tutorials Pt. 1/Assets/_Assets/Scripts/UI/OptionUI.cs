@@ -15,7 +15,7 @@ public class OptionUI : MonoBehaviour
 
 private void Awake()
     {
-        
+        Instance = this; 
         soundEffectsButton.onClick.AddListener(() =>
         {
             //Click
